@@ -1,0 +1,101 @@
+/* Chrome Extension */
+body, html {
+    min-width:600px;
+}
+
+.task {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin: 5px;
+    padding: 5px;
+}
+
+.task_id {
+    font-weight: bold;
+}
+
+ng-md-icon {
+    fill: currentColor;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-repeat: no-repeat no-repeat;
+}
+
+md-chips .md-chips {
+    box-shadow: 0 0;
+}
+
+.info,
+.success,
+.warning,
+.error {
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border-radius: 5px;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../img/info.png');
+}
+
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image: url('../img/success.png');
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../img/warning.png');
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../img/error.png');
+}
+
+.md-button {
+    margin: 2px;
+}
+
+div.md-list-item-text a {
+    text-decoration: none;
+    color: black;
+}
+
+md-card md-card-content {
+    padding: 2px;
+    border-left-color: rgb(205, 133, 254);
+    border-left-width: 15px;
+}
+
+md-card-content h3.md-title{
+    margin: 5px;
+}
+md-card-content p {
+    margin: 5px;
+    margin-left: 10px;
+    color: grey;
+}
+md-toolbar {
+    min-height: 0px;
+}
+.md-list-item-text li, .md-list-item-text em {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin: 0 0 0 0;
+    line-height: 1.6em;
+    color: rgba(0,0,0,0.54);
+}

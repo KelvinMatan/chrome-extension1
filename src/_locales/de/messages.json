@@ -1,0 +1,25 @@
+{
+  "chrome_extension_name": {
+    "message": "Kanboard Schnellzugriff"
+  },
+	"chrome_extension_description": {
+	  "message": "Eine kleine Erweiterung, um schneller auf Kanboard Projekte zuzugreifen."
+  },
+	"browser_action_title": {
+	  "message": "Kanboard Schnellzugriff"
+	},
+        "format_date": {
+            "message": "$day$.$month$.$year$",
+            "placeholders": {
+                "day": {
+                    "content": "$1"
+                },
+                "month": {
+                    "content": "$2"
+                },
+                "year": {
+                    "content": "$3"
+                }
+            }
+        }
+}

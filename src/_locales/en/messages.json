@@ -1,0 +1,25 @@
+{
+  "chrome_extension_name": {
+    "message": "Kanboard Quickmenu"
+  },
+	"chrome_extension_description": {
+	  "message": "A little extension to access Kanboard projects faster."
+  },
+	"browser_action_title": {
+	  "message": "Kanboard Quickmenu"
+	},
+	"format_date": {
+            "message": "$month$/$day$/$year$",
+            "placeholders": {
+                "day": {
+                    "content": "$1"
+                },
+                "month": {
+                    "content": "$2"
+                },
+                "year": {
+                    "content": "$3"
+                }
+            }
+        }
+}
